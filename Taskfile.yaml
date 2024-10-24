@@ -1,0 +1,12 @@
+version: '3'
+
+tasks:
+  pack:
+    alias: p
+    desc: "Pack file to .vlc"
+    cmd: ./archivator_go pack -m vlc ejemplo.txt
+
+  unpack:
+    alias: u
+    desc: "Unpack file from .vlc"
+    cmd: ./archivator_go unpack -m vlc ejemplo.txt
